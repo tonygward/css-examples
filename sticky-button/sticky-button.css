@@ -1,0 +1,29 @@
+.button {
+    border: 1px solid blue;
+    margin: 4px;
+    padding: 6px;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+}
+
+
+.button-container {
+    display: grid;
+
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .button-stick {
+        /* position: fixed;
+        bottom: 0; */
+
+        position: sticky;
+        bottom: 0rem;
+        inset: 0;
+
+        color:red;
+    }
+}
+
